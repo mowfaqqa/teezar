@@ -1,8 +1,8 @@
-import img1 from './assets/sample-1.png' 
+import img1 from './assets/sample-1.jpg' 
 import img2 from './assets/sample-2.png' 
-import img3 from './assets/sample-3.png' 
-import img4 from './assets/sample-4.png' 
-import img5 from './assets/sample-5.png' 
+import img3 from './assets/sample-3.jpg' 
+import img4 from './assets/sample-4.jpg' 
+import img5 from './assets/sample-5.jpg' 
 import img6 from './assets/sample-6.png' 
 
  const items = [

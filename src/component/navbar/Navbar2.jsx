@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { SearchIcon, ShoppingBagIcon, UserIcon, MenuIcon } from '@heroicons/react/outline'
+import { SearchIcon, ShoppingBagIcon, UserIcon } from '@heroicons/react/outline'
+import Hamburger from '../hamburger/Hamburger'
 
 const Navbar2 = () => {
    return (
@@ -38,12 +39,12 @@ const Navbar2 = () => {
                <Link to='/' className="px-1"><ShoppingBagIcon className="w-5 md:w-8 text-white hover:text-gold-100" /></Link>
             </div>
             <div className="text-center m-1">
-               <h1 className="text-white text-5xl font-dancing"><Link to='/'>Teezar</Link></h1>
+               <h1 className="text-white text-8xl font-dancing"><Link to='/'>Teezar</Link></h1>
                <h6 className="text-white text-sm font-dancing my-2">Fashion</h6>
             </div>
             <div className="icons flex justify-end mx-2">
                   <Link to='/' className="px-1"><SearchIcon className="w-5 md:w-8 text-white hover:text-gold-100" /></Link>
-                  <Link to='/' className="px-1"><MenuIcon className="w-5 md:w-8 text-white hover:text-gold-100" /></Link> 
+                  <Hamburger />
             </div>
          </div>
       </div>

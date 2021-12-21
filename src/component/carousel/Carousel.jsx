@@ -35,8 +35,8 @@ class CenterMode extends Component {
         <Slider {...settings} className="my-8 p-2">
         {items.map((item) => {
            return (
-            <Div className="bg-white p-2 mx-5 shadow-inner">
-            <Img src={item.img} alt="sample" className="mx-auto" />
+            <Div className="bg-white p-2 mx-5 shadow-inner object-cover">
+            <Img src={item.img} alt="sample" className="mx-auto"/>
             <p className="text-center text-base md:text-xl font-roboto mt-2">{item.name}</p>
           </Div>
            )
@@ -51,7 +51,6 @@ export default CenterMode
 
 const Img = styled.img `
    width: 100%;
-
    @media (max-width: 500px) {
       width: 100%;
       
