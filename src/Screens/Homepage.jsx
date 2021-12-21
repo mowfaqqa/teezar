@@ -11,16 +11,16 @@ import Showcase from '../component/showcase/Showcase'
 
 const Homepage = () => {
    return (
-      <div>
+      <>
          <Showcase />
          <CenterMode />
          <div className="text-center my-8">
-            <Link to="/" className="bg-gold-100 py-2 px-8 text-white">Shop Now</Link>
+            <Link to="/allproducts" className="bg-gold-100 py-2 px-8 text-white">Shop Now</Link>
         </div>
          <Category />
          <Gallery />
          <Footer />
-      </div>
+      </>
    )
 }
 

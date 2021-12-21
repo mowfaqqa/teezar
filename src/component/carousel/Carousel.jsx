@@ -31,7 +31,7 @@ class CenterMode extends Component {
     };
     return (
       <div className="overflow-hidden my-4">
-        <h2 className="text-center text-4xl font-dancing mb-3">Teezar Collections</h2>
+        <h2 className="text-center text-4xl font-dancing mb-3">Teezar Fashion</h2>
         <Slider {...settings} className="my-8 p-2">
         {items.map((item) => {
            return (
